@@ -41,7 +41,7 @@
 
 .card4 img {
     width: 400px; ;  
-
+    
 }
 
 .card4 {
@@ -63,4 +63,31 @@ img {
 
 img:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.hud-nav {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #00ff00;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    z-index: 100;
+}
+
+.hud-nav a {
+    color: #00ff00;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.hud-nav a:hover {
+    background: #00ff00;
+    color: black;
 }
