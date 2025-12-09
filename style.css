@@ -56,3 +56,11 @@
     font-size: 30px;
     padding-right:30px;
 }
+
+img {
+    transition: box-shadow 0.3s ease;
+}
+
+img:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
